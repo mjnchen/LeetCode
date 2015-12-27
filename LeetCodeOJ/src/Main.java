@@ -130,9 +130,20 @@ public class Main {
         //     System.out.println(result.get(i));
         // }
 
-        LeetCodeOJ125 solution = new LeetCodeOJ125();
-        boolean result = solution.isPalindrome("A man, a plan, a canal: Panama");
+        // LeetCodeOJ125 solution = new LeetCodeOJ125();
+        // boolean result = solution.isPalindrome("A man, a plan, a canal: Panama");
+        // System.out.println(result);
+
+        String start = "hit", end = "cog";
+        Set<String> dict = new HashSet<String>(Arrays.asList("hot","dot","dog","lot","log"));
+        Set<String> visited = new HashSet<String>();
+        visited.add(start);
+        LeetCodeOJ127 solution = new LeetCodeOJ127();
+        List<String> test = solution.findNextStr(start, dict, visited);
+        int result = solution.ladderLength(start, end, dict);
+        System.out.println(test);
         System.out.println(result);
+
 
         // // Testing codes corresponding to foundations of Java:
         // int x = -1;
