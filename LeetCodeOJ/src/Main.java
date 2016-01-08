@@ -134,15 +134,44 @@ public class Main {
         // boolean result = solution.isPalindrome("A man, a plan, a canal: Panama");
         // System.out.println(result);
 
-        String start = "hit", end = "cog";
-        Set<String> dict = new HashSet<String>(Arrays.asList("hot","dot","dog","lot","log"));
-        Set<String> visited = new HashSet<String>();
-        visited.add(start);
-        LeetCodeOJ127 solution = new LeetCodeOJ127();
-        List<String> test = solution.findNextStr(start, dict, visited);
-        int result = solution.ladderLength(start, end, dict);
-        System.out.println(test);
-        System.out.println(result);
+        // String start = "hit", end = "cog";
+        // Set<String> dict = new HashSet<String>(Arrays.asList("hot","dot","dog","lot","log"));
+        // Set<String> visited = new HashSet<String>();
+        // visited.add(start);
+        // LeetCodeOJ127 solution = new LeetCodeOJ127();
+        // List<String> test = solution.findNextStr(start, dict, visited);
+        // int result = solution.ladderLength(start, end, dict);
+        // System.out.println(test);
+        // System.out.println(result);
+
+        // int[] gas = new int[]{1, 2};
+        // int[] cost = new int[]{2, 1};
+        // LeetCodeOJ134 solution = new LeetCodeOJ134();
+        // int result = solution.canCompleteCircuit(gas, cost);
+        // System.out.println(result);
+
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(3);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = null;
+        ListNode node4 = new ListNode(4);
+        ListNode node5 = new ListNode(5);
+        node4.next = node5;
+        node5.next = null;
+        LeetCodeOJ143 solution = new LeetCodeOJ143();
+        ListNode head = solution.reverseList(node4); // reverseList seems OK
+        // while (head != null){
+            // System.out.println(head.val);
+            // head = head.next;
+        // }
+        ListNode head2 = solution.mergeTwoLists(node1, head);
+        while (head2 != null){
+            System.out.println(head2.val);
+            head2 = head2.next;
+        }
+        node3.next = node4;
 
 
         // // Testing codes corresponding to foundations of Java:
