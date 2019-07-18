@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * String to Integer (atoi)
  * Created by jchen on 8/16/15.

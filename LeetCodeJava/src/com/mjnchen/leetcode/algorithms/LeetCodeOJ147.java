@@ -1,6 +1,10 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Created by jchen on 2/26/15.
  */
+
+import com.mjnchen.leetcode.utils.ListNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

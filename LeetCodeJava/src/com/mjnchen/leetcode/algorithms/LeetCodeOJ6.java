@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * ZigZag Conversion
  * Created by jchen on 8/10/15.

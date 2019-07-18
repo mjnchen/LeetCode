@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Combination Sum II
  * Created by jchen on 2/26/15.

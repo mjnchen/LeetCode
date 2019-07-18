@@ -1,7 +1,11 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Validate Binary Search Tree
  * Created by jchen on 2/26/15.
  */
+
+import com.mjnchen.leetcode.utils.TreeNode;
 
 import java.util.Stack;
 import java.util.Deque;

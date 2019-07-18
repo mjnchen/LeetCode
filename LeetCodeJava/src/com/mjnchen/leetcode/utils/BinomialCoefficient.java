@@ -1,9 +1,12 @@
+package com.mjnchen.leetcode.utils;
+
 /**
  * Created by jchen on 6/5/15.
  */
+
 public class BinomialCoefficient {
     // Using dynamic programming
-    public int binomialCoefficient(int n, int k) {
+    public static int binomialCoefficient(int n, int k) {
         int[][] costMatrix= new int[n+1][k+1];
         for(int j=0;j<=k;j++){
             for(int i=0;i<=n;i++){

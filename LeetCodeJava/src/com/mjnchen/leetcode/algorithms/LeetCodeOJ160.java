@@ -1,3 +1,7 @@
+package com.mjnchen.leetcode.algorithms;
+
+import com.mjnchen.leetcode.utils.ListNode;
+
 /**
  * Created by jchen on 12/29/15.
  * 160. Intersection of Two Linked Lists

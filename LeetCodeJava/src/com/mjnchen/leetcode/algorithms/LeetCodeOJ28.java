@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Implement strStr()
  * Created by jchen on 8/16/15.

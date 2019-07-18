@@ -1,3 +1,6 @@
+package com.mjnchen.leetcode.algorithms;
+
+import com.mjnchen.leetcode.utils.ListNode;
 import java.util.Stack;
 
 /**

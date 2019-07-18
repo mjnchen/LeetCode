@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Created by jchen on 05/15/15.
  * Clone Graph

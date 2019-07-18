@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Created by jchen on 12/27/15.
  * Word Break

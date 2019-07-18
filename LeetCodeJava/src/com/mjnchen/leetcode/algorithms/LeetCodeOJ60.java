@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Permutation Sequence
  * Created by jchen on 2/26/15.

@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Sqrt(x)
  * Created by jchen on 2/26/15.

@@ -1,8 +1,11 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Add Two Numbers
  * Created by jchen on 2/26/15.
  */
 
+import com.mjnchen.leetcode.utils.ListNode;
 import java.util.*;
 
 public class LeetCodeOJ2 {

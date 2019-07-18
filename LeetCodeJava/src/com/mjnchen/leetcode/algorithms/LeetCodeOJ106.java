@@ -1,7 +1,11 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Created by jchen on 2/26/15.
  * Construct Binary Tree from Inorder and Postorder Traversal
  */
+
+import com.mjnchen.leetcode.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

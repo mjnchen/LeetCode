@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Median of Two Sorted Arrays
  * Created by jchen on 2/26/15.

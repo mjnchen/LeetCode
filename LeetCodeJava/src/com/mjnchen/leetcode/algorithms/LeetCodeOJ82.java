@@ -1,7 +1,11 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Remove Duplicates from Sorted List II
  * Created by jchen on 2/26/15.
  */
+
+import com.mjnchen.leetcode.utils.ListNode;
 
 import java.util.List;
 import java.util.Stack;

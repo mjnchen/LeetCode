@@ -1,7 +1,11 @@
+package com.mjnchen.leetcode.algorithms;
+
 /**
  * Created by jchen on 2/26/15.
  * Binary Tree Zigzag Level Order Traversal
  */
+
+import com.mjnchen.leetcode.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

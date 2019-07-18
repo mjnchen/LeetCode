@@ -1,3 +1,5 @@
+package com.mjnchen.leetcode.algorithms;
+
 import java.util.HashMap;
 
 /**
